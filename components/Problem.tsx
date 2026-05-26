@@ -5,6 +5,63 @@ import FadeUp from "./FadeUp";
 export default function Problem() {
   return (
     <section className="py-24 md:py-32" style={{ backgroundColor: "#122851" }}>
+      {/* Stats strip */}
+      <div className="max-w-6xl mx-auto px-6 mb-20">
+        <div className="grid grid-cols-1 md:grid-cols-3 divide-y md:divide-y-0 md:divide-x divide-white/10">
+          <div className="px-8 py-8 text-center">
+            <div
+              className="font-display font-semibold text-white"
+              style={{ fontSize: "52px", lineHeight: 1, letterSpacing: "-0.01em" }}
+            >
+              $10K
+            </div>
+            <div
+              className="font-sans font-medium mt-2 mb-2"
+              style={{ fontSize: "11px", letterSpacing: "0.08em", textTransform: "uppercase", color: "rgba(154,170,187,0.9)" }}
+            >
+              Fixed Price
+            </div>
+            <p className="font-sans" style={{ fontSize: "13px", color: "rgba(255,255,255,0.5)" }}>
+              One flat rate. No equity, no retainer, no surprises.
+            </p>
+          </div>
+          <div className="px-8 py-8 text-center">
+            <div
+              className="font-display font-semibold text-white"
+              style={{ fontSize: "52px", lineHeight: 1, letterSpacing: "-0.01em" }}
+            >
+              14
+            </div>
+            <div
+              className="font-sans font-medium mt-2 mb-2"
+              style={{ fontSize: "11px", letterSpacing: "0.08em", textTransform: "uppercase", color: "rgba(154,170,187,0.9)" }}
+            >
+              Days, Idea to Demo
+            </div>
+            <p className="font-sans" style={{ fontSize: "13px", color: "rgba(255,255,255,0.5)" }}>
+              From first call to a deployed prototype in your hands.
+            </p>
+          </div>
+          <div className="px-8 py-8 text-center">
+            <div
+              className="font-display font-semibold text-white"
+              style={{ fontSize: "52px", lineHeight: 1, letterSpacing: "-0.01em" }}
+            >
+              100%
+            </div>
+            <div
+              className="font-sans font-medium mt-2 mb-2"
+              style={{ fontSize: "11px", letterSpacing: "0.08em", textTransform: "uppercase", color: "rgba(154,170,187,0.9)" }}
+            >
+              Yours to Keep
+            </div>
+            <p className="font-sans" style={{ fontSize: "13px", color: "rgba(255,255,255,0.5)" }}>
+              Full source code and IP ownership. Everything we build is yours.
+            </p>
+          </div>
+        </div>
+      </div>
+
       <div className="max-w-2xl mx-auto px-6 text-center">
         <FadeUp delay={0}>
           <p

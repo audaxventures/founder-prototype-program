@@ -13,16 +13,26 @@ export default function Nav() {
         borderBottom: "0.5px solid rgba(27,58,107,0.12)",
       }}
     >
-      <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div className="relative max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <Image
           src="/logo.png"
           alt="Audax Ventures"
-          height={36}
-          width={120}
+          height={44}
+          width={148}
           className="flex-shrink-0"
           style={{ objectFit: "contain" }}
         />
+
+        {/* Centre title */}
+        <div className="absolute left-1/2 -translate-x-1/2 hidden md:block pointer-events-none">
+          <span
+            className="font-sans font-medium text-navy"
+            style={{ fontSize: "13px", letterSpacing: "0.08em" }}
+          >
+            Founder Prototype Program
+          </span>
+        </div>
 
         {/* CTA */}
         <a
