@@ -42,12 +42,6 @@ export default function Pricing() {
               style={{ fontSize: "clamp(5rem, 10vw, 90px)", lineHeight: 1, letterSpacing: "-0.02em" }}
             >
               $10,000
-              <sup
-                className="font-sans font-medium text-white"
-                style={{ fontSize: "20px", letterSpacing: "0.06em", verticalAlign: "super", marginLeft: "6px", opacity: 0.7 }}
-              >
-                CAD
-              </sup>
             </span>
           </div>
         </FadeUp>

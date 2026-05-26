@@ -42,7 +42,7 @@ export default function Industries() {
         <FadeUp delay={0.2}>
           <p
             className="font-sans mb-12"
-            style={{ fontSize: "17px", lineHeight: "1.7", color: "rgba(255,255,255,0.6)" }}
+            style={{ fontSize: "19px", lineHeight: "1.7", color: "rgba(255,255,255,0.6)" }}
           >
             Our team is industry-agnostic. We don&apos;t specialize in one vertical — we specialize
             in taking ideas to working products, fast. Whatever market you&apos;re going after, we
@@ -59,7 +59,7 @@ export default function Industries() {
                 style={{
                   border: "0.5px solid rgba(255,255,255,0.3)",
                   color: "rgba(255,255,255,0.7)",
-                  fontSize: "13px",
+                  fontSize: "15px",
                   letterSpacing: "0.04em",
                   borderRadius: "2px",
                 }}

@@ -21,7 +21,7 @@ export default function Problem() {
             >
               Fixed Price
             </div>
-            <p className="font-sans" style={{ fontSize: "13px", color: "rgba(255,255,255,0.5)" }}>
+            <p className="font-sans" style={{ fontSize: "15px", color: "rgba(255,255,255,0.5)" }}>
               One flat rate. No equity, no retainer, no surprises.
             </p>
           </div>
@@ -38,7 +38,7 @@ export default function Problem() {
             >
               Days, Idea to Demo
             </div>
-            <p className="font-sans" style={{ fontSize: "13px", color: "rgba(255,255,255,0.5)" }}>
+            <p className="font-sans" style={{ fontSize: "15px", color: "rgba(255,255,255,0.5)" }}>
               From first call to a deployed prototype in your hands.
             </p>
           </div>
@@ -55,7 +55,7 @@ export default function Problem() {
             >
               Yours to Keep
             </div>
-            <p className="font-sans" style={{ fontSize: "13px", color: "rgba(255,255,255,0.5)" }}>
+            <p className="font-sans" style={{ fontSize: "15px", color: "rgba(255,255,255,0.5)" }}>
               Full source code and IP ownership. Everything we build is yours.
             </p>
           </div>
@@ -86,15 +86,15 @@ export default function Problem() {
 
         <FadeUp delay={0.2}>
           <div className="text-left space-y-5">
-            <p className="font-sans" style={{ fontSize: "17px", lineHeight: "1.7", color: "rgba(255,255,255,0.75)" }}>
+            <p className="font-sans" style={{ fontSize: "19px", lineHeight: "1.7", color: "rgba(255,255,255,0.75)" }}>
               Most non-technical founders hit the same wall: you know exactly what you want to build,
               but you don&apos;t have a technical co-founder — and hiring a dev agency feels like a
               $100,000 commitment with no guarantees.
             </p>
-            <p className="font-sans" style={{ fontSize: "17px", lineHeight: "1.7", color: "rgba(255,255,255,0.75)" }}>
+            <p className="font-sans" style={{ fontSize: "19px", lineHeight: "1.7", color: "rgba(255,255,255,0.75)" }}>
               So the idea sits. Time passes. Someone else builds it.
             </p>
-            <p className="font-sans" style={{ fontSize: "17px", lineHeight: "1.7", color: "rgba(255,255,255,0.75)" }}>
+            <p className="font-sans" style={{ fontSize: "19px", lineHeight: "1.7", color: "rgba(255,255,255,0.75)" }}>
               We built the Founder Prototype Program to change that. A fixed price, a two-week timeline,
               and a senior team that treats your idea with the seriousness it deserves.
             </p>

@@ -72,7 +72,7 @@ export default function Testimonials() {
                   <p className="font-sans font-medium text-navy" style={{ fontSize: "14px" }}>
                     {t.name}
                   </p>
-                  <p className="font-sans text-slate" style={{ fontSize: "13px" }}>
+                  <p className="font-sans text-slate" style={{ fontSize: "15px" }}>
                     {t.role}
                   </p>
                 </div>

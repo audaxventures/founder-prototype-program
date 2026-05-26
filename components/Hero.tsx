@@ -132,7 +132,7 @@ export default function Hero() {
               </h1>
             </FadeUp>
             <FadeUp delay={0.2}>
-              <p className="font-sans text-text-muted mb-10" style={{ fontSize: "17px", lineHeight: "1.7" }}>
+              <p className="font-sans text-text-muted mb-10" style={{ fontSize: "19px", lineHeight: "1.7" }}>
                 We help non-technical founders turn an early-stage idea into a real, deployed
                 prototype — something you can put in front of real users and show to investors.
                 Fast enough to keep your momentum. Affordable enough to fund out of pre-seed savings.
