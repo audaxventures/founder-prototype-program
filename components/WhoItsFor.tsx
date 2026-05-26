@@ -65,6 +65,17 @@ export default function WhoItsFor() {
             ))}
           </div>
         </div>
+        <FadeUp delay={0.6}>
+          <div className="mt-12 text-center">
+            <a
+              href="#book"
+              className="inline-block font-sans font-medium text-sm bg-navy text-white px-8 py-4 hover:bg-navy-dark transition-colors"
+              style={{ borderRadius: "2px" }}
+            >
+              Book A FREE Strategy Call
+            </a>
+          </div>
+        </FadeUp>
       </div>
     </section>
   );

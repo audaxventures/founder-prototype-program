@@ -76,11 +76,18 @@ export default function Industries() {
             style={{ borderTop: "0.5px solid rgba(255,255,255,0.12)" }}
           >
             <p
-              className="font-sans"
+              className="font-sans mb-8"
               style={{ fontSize: "14px", color: "rgba(255,255,255,0.45)" }}
             >
               Not sure if your idea fits? Book a call and let&apos;s talk — we&apos;ll tell you honestly.
             </p>
+            <a
+              href="#book"
+              className="inline-block font-sans font-medium text-sm bg-orange text-white px-8 py-4 hover:opacity-90 transition-opacity"
+              style={{ borderRadius: "2px" }}
+            >
+              Book A FREE Strategy Call
+            </a>
           </div>
         </FadeUp>
       </div>
