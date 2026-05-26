@@ -63,7 +63,7 @@ export default function Testimonials() {
                 }}
               >
                 <blockquote
-                  className="font-display italic text-navy flex-1 mb-8"
+                  className="font-display text-navy flex-1 mb-8"
                   style={{ fontSize: "18px", lineHeight: "1.65" }}
                 >
                   &ldquo;{t.quote}&rdquo;
