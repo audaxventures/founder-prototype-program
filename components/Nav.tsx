@@ -15,27 +15,14 @@ export default function Nav() {
     >
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
-        <div className="flex items-center gap-3">
-          <Image
-            src="/logo.png"
-            alt="Audax Ventures"
-            height={36}
-            width={120}
-            className="flex-shrink-0"
-            style={{ objectFit: "contain" }}
-          />
-          <div>
-            <div
-              className="font-sans font-medium text-navy text-sm"
-              style={{ letterSpacing: "0.12em" }}
-            >
-              AUDAX VENTURES
-            </div>
-            <div className="font-sans text-slate text-xs hidden sm:block" style={{ letterSpacing: "0.04em" }}>
-              Founder Prototype Program
-            </div>
-          </div>
-        </div>
+        <Image
+          src="/logo.png"
+          alt="Audax Ventures"
+          height={36}
+          width={120}
+          className="flex-shrink-0"
+          style={{ objectFit: "contain" }}
+        />
 
         {/* CTA */}
         <a
