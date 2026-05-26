@@ -108,6 +108,18 @@ export default function Process() {
             </FadeUp>
           ))}
         </div>
+
+        <FadeUp delay={0.5}>
+          <div className="mt-14 text-center">
+            <a
+              href="#book"
+              className="inline-block font-sans font-medium text-sm bg-navy text-white px-8 py-4 hover:bg-navy-dark transition-colors"
+              style={{ borderRadius: "2px" }}
+            >
+              Book A FREE Strategy Call
+            </a>
+          </div>
+        </FadeUp>
       </div>
     </section>
   );
