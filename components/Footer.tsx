@@ -11,6 +11,15 @@ export default function Footer() {
         >
           © 2025 Audax Ventures · Founder Prototype Program
         </p>
+        <a
+          href="https://www.audaxventures.ca"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="font-sans font-medium text-white border hover:bg-white hover:text-navy transition-colors"
+          style={{ fontSize: "13px", borderColor: "rgba(255,255,255,0.25)", borderRadius: "2px", padding: "8px 18px" }}
+        >
+          Visit the Main Audax Ventures Website →
+        </a>
         <p
           className="font-sans"
           style={{ fontSize: "12px", color: "rgba(255,255,255,0.35)" }}
@@ -21,16 +30,6 @@ export default function Footer() {
             className="text-orange-light hover:underline"
           >
             info@audaxventures.ca
-          </a>
-          {" · "}
-          <a
-            href="https://audaxventures.ca"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ color: "rgba(255,255,255,0.35)" }}
-            className="hover:underline"
-          >
-            audaxventures.ca
           </a>
         </p>
       </div>
