@@ -38,7 +38,7 @@ export default function WhoItsFor() {
               </h2>
             </FadeUp>
             <FadeUp delay={0.2}>
-              <p className="font-sans text-text-muted" style={{ fontSize: "17px", lineHeight: "1.7" }}>
+              <p className="font-sans text-text-muted" style={{ fontSize: "19px", lineHeight: "1.7" }}>
                 Whether you&apos;re validating a new concept or preparing to raise your first round,
                 this program gives you the most important thing you can have: proof that it works.
               </p>
@@ -57,7 +57,7 @@ export default function WhoItsFor() {
                       <path d="M1 4L3.5 6.5L9 1" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                   </div>
-                  <p className="font-sans text-text-muted" style={{ fontSize: "16px", lineHeight: "1.6" }}>
+                  <p className="font-sans text-text-muted" style={{ fontSize: "18px", lineHeight: "1.6" }}>
                     {item}
                   </p>
                 </div>

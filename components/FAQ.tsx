@@ -19,7 +19,7 @@ const faqs = [
   },
   {
     q: "Do you take equity or have any ongoing fees?",
-    a: "No. The program is a flat $10,000 CAD, one-time fee. We take no equity, no royalties, and there are no hidden costs or retainers. After the program ends, you own everything outright and there's no obligation to continue working with us — though many clients do.",
+    a: "No. The program is a flat $10,000, one-time fee. We take no equity, no royalties, and there are no hidden costs or retainers. After the program ends, you own everything outright and there's no obligation to continue working with us — though many clients do.",
   },
   {
     q: "What industries do you work with?",
@@ -107,7 +107,7 @@ export default function FAQ() {
             </h2>
           </FadeUp>
           <FadeUp delay={0.15}>
-            <p className="font-sans text-text-muted" style={{ fontSize: "17px", lineHeight: "1.7" }}>
+            <p className="font-sans text-text-muted" style={{ fontSize: "19px", lineHeight: "1.7" }}>
               Still on the fence? Here are the questions we hear most often — answered honestly.
             </p>
           </FadeUp>

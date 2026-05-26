@@ -55,7 +55,7 @@ export default function Process() {
             </h2>
           </FadeUp>
           <FadeUp delay={0.2}>
-            <p className="font-sans text-text-muted" style={{ fontSize: "17px", lineHeight: "1.7" }}>
+            <p className="font-sans text-text-muted" style={{ fontSize: "19px", lineHeight: "1.7" }}>
               Our process is designed to move fast without cutting corners. Every day of the two
               weeks is accounted for.
             </p>
@@ -89,7 +89,7 @@ export default function Process() {
                 </h3>
                 <p
                   className="font-sans text-text-muted flex-1"
-                  style={{ fontSize: "15px", lineHeight: "1.7" }}
+                  style={{ fontSize: "17px", lineHeight: "1.7" }}
                 >
                   {card.description}
                 </p>

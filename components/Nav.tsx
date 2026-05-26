@@ -28,7 +28,7 @@ export default function Nav() {
         <div className="absolute left-1/2 -translate-x-1/2 hidden md:block pointer-events-none">
           <span
             className="font-sans font-medium text-navy"
-            style={{ fontSize: "13px", letterSpacing: "0.08em" }}
+            style={{ fontSize: "16px", letterSpacing: "0.08em" }}
           >
             Founder Prototype Program
           </span>

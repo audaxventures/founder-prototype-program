@@ -58,16 +58,16 @@ export default function Team() {
 
             <FadeUp delay={0.2}>
               <div className="space-y-5 mb-10">
-                <p className="font-sans text-text-muted" style={{ fontSize: "16px", lineHeight: "1.7" }}>
+                <p className="font-sans text-text-muted" style={{ fontSize: "18px", lineHeight: "1.7" }}>
                   When you work with Audax Ventures, you&apos;re not handed off to a junior developer
                   or an offshore team. You work directly with our senior team — experienced builders
                   who have shipped products across dozens of industries.
                 </p>
-                <p className="font-sans text-text-muted" style={{ fontSize: "16px", lineHeight: "1.7" }}>
+                <p className="font-sans text-text-muted" style={{ fontSize: "18px", lineHeight: "1.7" }}>
                   Our team combines product strategy, design, and engineering — all under one roof,
                   all aligned on one goal: getting your prototype in front of users as fast as possible.
                 </p>
-                <p className="font-sans text-text-muted" style={{ fontSize: "16px", lineHeight: "1.7" }}>
+                <p className="font-sans text-text-muted" style={{ fontSize: "18px", lineHeight: "1.7" }}>
                   I started Audax Ventures because I kept meeting brilliant non-technical founders who
                   were stuck at the same point: they had the vision, the market knowledge, and the drive
                   — but no way to bring it to life without taking on massive risk. This program is the
@@ -82,9 +82,9 @@ export default function Team() {
                 style={{ borderBottom: "0.5px solid rgba(27,58,107,0.15)" }}
               >
                 <p className="font-sans font-medium text-navy" style={{ fontSize: "14px" }}>
-                  [Founder Name]
+                  Joshua Zaporzan
                 </p>
-                <p className="font-sans text-slate" style={{ fontSize: "13px" }}>
+                <p className="font-sans text-slate" style={{ fontSize: "15px" }}>
                   Founder, Audax Ventures
                 </p>
               </div>

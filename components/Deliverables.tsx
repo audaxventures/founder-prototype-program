@@ -70,7 +70,7 @@ export default function Deliverables() {
                   >
                     {item.title}
                   </h3>
-                  <p className="font-sans text-text-muted" style={{ fontSize: "15px", lineHeight: "1.7" }}>
+                  <p className="font-sans text-text-muted" style={{ fontSize: "17px", lineHeight: "1.7" }}>
                     {item.description}
                   </p>
                 </div>

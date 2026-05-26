@@ -29,7 +29,7 @@ export default function Booking() {
             </h2>
           </FadeUp>
           <FadeUp delay={0.2}>
-            <p className="font-sans text-text-muted" style={{ fontSize: "17px", lineHeight: "1.7" }}>
+            <p className="font-sans text-text-muted" style={{ fontSize: "19px", lineHeight: "1.7" }}>
               Book a free 30-minute call with our team. We&apos;ll listen to what you&apos;re building,
               answer your questions, and tell you honestly if the program is a good fit for where you
               are right now. No pressure. No pitch. Just a real conversation.
