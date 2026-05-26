@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+
 export default function Nav() {
   return (
     <nav
@@ -14,28 +16,14 @@ export default function Nav() {
       <div className="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center gap-3">
-          <svg
-            width="36"
-            height="36"
-            viewBox="0 0 36 36"
-            fill="none"
-            xmlns="http://www.w3.org/2000/svg"
+          <Image
+            src="/logo.png"
+            alt="Audax Ventures"
+            height={36}
+            width={120}
             className="flex-shrink-0"
-          >
-            <circle cx="18" cy="18" r="17" stroke="#1B3A6B" strokeWidth="1.5" />
-            <path
-              d="M18 9L26 27H10L18 9Z"
-              fill="#1B3A6B"
-              opacity="0.15"
-            />
-            <path
-              d="M18 9L26 27M18 9L10 27M13 21H23"
-              stroke="#1B3A6B"
-              strokeWidth="1.8"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            />
-          </svg>
+            style={{ objectFit: "contain" }}
+          />
           <div>
             <div
               className="font-sans font-medium text-navy text-sm"
