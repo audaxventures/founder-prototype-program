@@ -1,0 +1,33 @@
+import Nav from "@/components/Nav";
+import Hero from "@/components/Hero";
+import Problem from "@/components/Problem";
+import WhoItsFor from "@/components/WhoItsFor";
+import Process from "@/components/Process";
+import Deliverables from "@/components/Deliverables";
+import Industries from "@/components/Industries";
+import Team from "@/components/Team";
+import Testimonials from "@/components/Testimonials";
+import FAQ from "@/components/FAQ";
+import Pricing from "@/components/Pricing";
+import Booking from "@/components/Booking";
+import Footer from "@/components/Footer";
+
+export default function Home() {
+  return (
+    <main>
+      <Nav />
+      <Hero />
+      <Problem />
+      <WhoItsFor />
+      <Process />
+      <Deliverables />
+      <Industries />
+      <Team />
+      <Testimonials />
+      <FAQ />
+      <Pricing />
+      <Booking />
+      <Footer />
+    </main>
+  );
+}
