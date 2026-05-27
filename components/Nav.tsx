@@ -40,7 +40,7 @@ export default function Nav() {
           className="font-sans font-medium text-sm bg-navy text-white px-5 py-2.5 transition-colors hover:bg-navy-dark"
           style={{ borderRadius: "2px" }}
         >
-          Book a Call
+          Book a FREE Strategy Call
         </a>
       </div>
     </nav>
