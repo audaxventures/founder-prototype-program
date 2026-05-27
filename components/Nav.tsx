@@ -13,13 +13,13 @@ export default function Nav() {
         borderBottom: "0.5px solid rgba(27,58,107,0.12)",
       }}
     >
-      <div className="relative max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div className="relative max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
         <Image
           src="/logo.png"
           alt="Audax Ventures"
-          height={44}
-          width={148}
+          height={60}
+          width={200}
           className="flex-shrink-0"
           style={{ objectFit: "contain" }}
         />
