@@ -15,14 +15,16 @@ export default function Nav() {
     >
       <div className="relative max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
         {/* Logo */}
-        <Image
-          src="/logo.png"
-          alt="Audax Ventures"
-          height={60}
-          width={200}
-          className="flex-shrink-0"
-          style={{ objectFit: "contain" }}
-        />
+        <a href="https://www.audaxventures.ca" target="_blank" rel="noopener noreferrer">
+          <Image
+            src="/logo.png"
+            alt="Audax Ventures"
+            height={60}
+            width={200}
+            className="flex-shrink-0"
+            style={{ objectFit: "contain" }}
+          />
+        </a>
 
         {/* Centre title */}
         <div className="absolute left-1/2 -translate-x-1/2 hidden md:block pointer-events-none">
