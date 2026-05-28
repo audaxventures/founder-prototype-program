@@ -89,8 +89,7 @@ export default function Pricing() {
                 Zero Risk. 100% Guaranteed.
               </p>
               <p className="font-sans" style={{ fontSize: "14px", lineHeight: "1.65", color: "rgba(255,255,255,0.6)" }}>
-                If you&apos;re not completely satisfied with the prototype we deliver at handoff, we&apos;ll
-                refund your investment in full. No questions asked.
+                If you&apos;re not completely satisfied with what we deliver, we&apos;ll refund your investment in full. No questions asked.
               </p>
             </div>
           </div>

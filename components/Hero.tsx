@@ -139,7 +139,7 @@ export default function Hero() {
               </p>
             </FadeUp>
             <FadeUp delay={0.3}>
-              <div className="flex flex-wrap items-center gap-5">
+              <div className="flex flex-wrap items-center gap-5 mb-8">
                 <a
                   href="#book"
                   className="font-sans font-medium text-sm bg-navy text-white px-7 py-3.5 hover:bg-navy-dark transition-colors"
@@ -153,6 +153,15 @@ export default function Hero() {
                 >
                   See how it works →
                 </a>
+              </div>
+            </FadeUp>
+            <FadeUp delay={0.4}>
+              <div className="flex items-start gap-3">
+                <span style={{ fontSize: "20px", lineHeight: 1, flexShrink: 0, marginTop: "2px" }}>🛡️</span>
+                <p className="font-sans text-slate" style={{ fontSize: "14px", lineHeight: "1.65" }}>
+                  <span className="font-medium text-navy">Zero Risk. 100% Guaranteed.</span>{" "}
+                  If you&apos;re not completely satisfied with what we deliver, we&apos;ll refund your investment in full. No questions asked.
+                </p>
               </div>
             </FadeUp>
           </div>

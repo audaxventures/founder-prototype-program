@@ -51,8 +51,7 @@ export default function Booking() {
                   Zero Risk. 100% Guaranteed.
                 </p>
                 <p className="font-sans text-text-muted" style={{ fontSize: "14px", lineHeight: "1.65" }}>
-                  Not satisfied with what we deliver? You&apos;ll receive a full refund. We&apos;ll discuss
-                  the details on our call — but the short version is: if we don&apos;t deliver, you don&apos;t pay.
+                  If you&apos;re not completely satisfied with what we deliver, we&apos;ll refund your investment in full. No questions asked.
                 </p>
               </div>
             </div>
