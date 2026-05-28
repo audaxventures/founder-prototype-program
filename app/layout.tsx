@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   title: "Founder Prototype Program — Audax Ventures",
   description:
     "Turn your idea into a working prototype in 2 weeks for $10,000. Built for non-technical founders. Book a free discovery call with Audax Ventures.",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
