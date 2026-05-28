@@ -6,24 +6,24 @@ import FadeUp from "./FadeUp";
 const projects = [
   {
     image: "/project-1.png",
-    title: "Project Name",
-    category: "SaaS / Analytics",
+    title: "Beacon",
+    category: "SaaS Product",
     description:
-      "A placeholder description for this prototype. Update with the real project name, industry, and a one-line summary of what was built.",
+      "A project status page that gives stakeholders an instant read on progress, milestones, and launch readiness.",
   },
   {
     image: "/project-2.png",
-    title: "Project Name",
-    category: "Marketplace",
+    title: "Keystone",
+    category: "Project Management",
     description:
-      "A placeholder description for this prototype. Update with the real project name, industry, and a one-line summary of what was built.",
+      "A project management platform built for construction firms — tracking jobs, crews, budgets, and site progress from bid to closeout.",
   },
   {
     image: "/project-3.png",
-    title: "Project Name",
-    category: "Operations / Workflow",
+    title: "Pulse",
+    category: "SaaS Analytics",
     description:
-      "A placeholder description for this prototype. Update with the real project name, industry, and a one-line summary of what was built.",
+      "A focused revenue dashboard that surfaces the single metric that matters, with year-over-year context at a glance.",
   },
 ];
 
