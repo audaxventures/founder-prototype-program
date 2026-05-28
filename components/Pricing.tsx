@@ -74,6 +74,29 @@ export default function Pricing() {
         </FadeUp>
 
         <FadeUp delay={0.35}>
+          <div
+            className="flex items-start gap-4 text-left mx-auto mb-10 px-7 py-6"
+            style={{
+              maxWidth: "520px",
+              border: "1px solid rgba(255,255,255,0.15)",
+              borderRadius: "4px",
+              backgroundColor: "rgba(255,255,255,0.05)",
+            }}
+          >
+            <span style={{ fontSize: "28px", lineHeight: 1, flexShrink: 0 }}>🛡️</span>
+            <div>
+              <p className="font-sans font-medium text-white mb-1" style={{ fontSize: "15px" }}>
+                Zero Risk. 100% Guaranteed.
+              </p>
+              <p className="font-sans" style={{ fontSize: "14px", lineHeight: "1.65", color: "rgba(255,255,255,0.6)" }}>
+                If you&apos;re not completely satisfied with the prototype we deliver at handoff, we&apos;ll
+                refund your investment in full. No questions asked.
+              </p>
+            </div>
+          </div>
+        </FadeUp>
+
+        <FadeUp delay={0.4}>
           <a
             href="#book"
             className="inline-block font-sans font-medium text-navy bg-white px-10 py-4 hover:bg-cream transition-colors"

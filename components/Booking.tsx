@@ -35,6 +35,28 @@ export default function Booking() {
               are right now. No pressure. No pitch. Just a real conversation.
             </p>
           </FadeUp>
+          <FadeUp delay={0.22}>
+            <div
+              className="flex items-start gap-4 mt-8 px-6 py-5"
+              style={{
+                border: "0.5px solid rgba(27,58,107,0.15)",
+                borderLeft: "3px solid #C45C2A",
+                borderRadius: "2px",
+                backgroundColor: "#FAF8F5",
+              }}
+            >
+              <span style={{ fontSize: "24px", lineHeight: 1, flexShrink: 0 }}>🛡️</span>
+              <div>
+                <p className="font-sans font-medium text-navy mb-1" style={{ fontSize: "15px" }}>
+                  Zero Risk. 100% Guaranteed.
+                </p>
+                <p className="font-sans text-text-muted" style={{ fontSize: "14px", lineHeight: "1.65" }}>
+                  Not satisfied with what we deliver? You&apos;ll receive a full refund. We&apos;ll discuss
+                  the details on our call — but the short version is: if we don&apos;t deliver, you don&apos;t pay.
+                </p>
+              </div>
+            </div>
+          </FadeUp>
         </div>
 
         <FadeUp delay={0.25}>
