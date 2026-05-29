@@ -69,7 +69,8 @@ export default function Booking() {
             <div
               className="calendly-inline-widget"
               data-url="https://calendly.com/audax-ventures/audax-ventures-founder-prototype-program?hide_gdpr_banner=1&primary_color=1B3A6B"
-              style={{ minWidth: "320px", height: "700px" }}
+              data-resize="true"
+              style={{ minWidth: "320px", height: "1000px" }}
             />
           </div>
         </FadeUp>

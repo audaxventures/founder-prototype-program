@@ -8,6 +8,7 @@ import Deliverables from "@/components/Deliverables";
 import Industries from "@/components/Industries";
 import Team from "@/components/Team";
 import Testimonials from "@/components/Testimonials";
+import BookingMid from "@/components/BookingMid";
 import FAQ from "@/components/FAQ";
 import Pricing from "@/components/Pricing";
 import Booking from "@/components/Booking";
@@ -26,6 +27,7 @@ export default function Home() {
       <Industries />
       <Team />
       <Testimonials />
+      <BookingMid />
       <FAQ />
       <Pricing />
       <Booking />
