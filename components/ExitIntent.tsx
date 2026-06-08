@@ -105,10 +105,17 @@ export default function ExitIntent() {
               <strong>How to validate your startup idea before spending a dollar on development.</strong>
             </p>
             <form
-              onSubmit={(e) => {
+              onSubmit={async (e) => {
                 e.preventDefault();
-                console.log("Exit-intent email capture:", email);
-                // TODO: connect to Mailchimp/ConvertKit
+                try {
+                  await fetch("/api/subscribe", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ email }),
+                  });
+                } catch {
+                  // Silent fail — submission still acknowledged to user
+                }
                 setSubmitted(true);
               }}
             >
