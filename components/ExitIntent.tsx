@@ -146,11 +146,14 @@ export default function ExitIntent() {
                   fontWeight: 500,
                   fontSize: "15px",
                   cursor: "pointer",
-                  marginBottom: "16px",
+                  marginBottom: "10px",
                 }}
               >
                 Send Me the Guide
               </button>
+              <p style={{ fontSize: "11px", lineHeight: "1.6", color: "rgba(27,58,107,0.45)", marginBottom: "16px" }}>
+                By submitting your email you agree to receive communications from Audax Ventures. You can unsubscribe at any time.
+              </p>
             </form>
             <button
               onClick={() => setShow(false)}
