@@ -1,6 +1,7 @@
 "use client";
 
 import FadeUp from "./FadeUp";
+import { openCalendlyModal } from "./CalendlyModal";
 
 const cards = [
   {
@@ -113,6 +114,7 @@ export default function Process() {
           <div className="mt-14 text-center">
             <a
               href="#book"
+              onClick={(e) => { e.preventDefault(); openCalendlyModal(); }}
               className="inline-block font-sans font-medium text-sm bg-navy text-white px-8 py-4 hover:bg-navy-dark transition-colors"
               style={{ borderRadius: "2px" }}
             >

@@ -1,6 +1,7 @@
 "use client";
 
 import FadeUp from "./FadeUp";
+import { openCalendlyModal } from "./CalendlyModal";
 
 const bullets = [
   "Flat rate, no overages",
@@ -98,6 +99,7 @@ export default function Pricing() {
         <FadeUp delay={0.4}>
           <a
             href="#book"
+            onClick={(e) => { e.preventDefault(); openCalendlyModal(); }}
             className="inline-block font-sans font-medium text-navy bg-white px-10 py-4 hover:bg-cream transition-colors"
             style={{ borderRadius: "2px", fontSize: "15px" }}
           >

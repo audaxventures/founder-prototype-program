@@ -1,6 +1,7 @@
 "use client";
 
 import FadeUp from "./FadeUp";
+import { openCalendlyModal } from "./CalendlyModal";
 
 export default function Problem() {
   return (
@@ -118,6 +119,7 @@ export default function Problem() {
           <div className="mt-12 text-center">
             <a
               href="#book"
+              onClick={(e) => { e.preventDefault(); openCalendlyModal(); }}
               className="inline-block font-sans font-medium text-sm bg-orange text-white px-8 py-4 hover:opacity-90 transition-opacity"
               style={{ borderRadius: "2px" }}
             >

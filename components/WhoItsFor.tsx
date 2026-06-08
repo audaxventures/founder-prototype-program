@@ -1,6 +1,7 @@
 "use client";
 
 import FadeUp from "./FadeUp";
+import { openCalendlyModal } from "./CalendlyModal";
 
 const checks = [
   "You don't have a technical co-founder and need someone to build your vision",
@@ -69,6 +70,7 @@ export default function WhoItsFor() {
           <div className="mt-12 text-center">
             <a
               href="#book"
+              onClick={(e) => { e.preventDefault(); openCalendlyModal(); }}
               className="inline-block font-sans font-medium text-sm bg-navy text-white px-8 py-4 hover:bg-navy-dark transition-colors"
               style={{ borderRadius: "2px" }}
             >

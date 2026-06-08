@@ -2,6 +2,7 @@
 
 import Script from "next/script";
 import FadeUp from "./FadeUp";
+import UrgencyBadge from "./UrgencyBadge";
 
 export default function Booking() {
   return (
@@ -59,6 +60,21 @@ export default function Booking() {
         </div>
 
         <FadeUp delay={0.25}>
+          {/* Trust bullets */}
+          <div className="mb-4 px-5 py-4" style={{ backgroundColor: "#F4F6F9", borderRadius: "3px" }}>
+            {[
+              "We'll listen to your idea — no NDA required",
+              "We'll tell you honestly if the program is a good fit",
+              "You'll leave with clarity, whether we work together or not",
+            ].map((item, i, arr) => (
+              <div key={i} className="flex items-start gap-2" style={{ marginBottom: i < arr.length - 1 ? "6px" : 0 }}>
+                <span className="font-sans font-medium flex-shrink-0" style={{ fontSize: "13px", color: "#C45C2A" }}>✓</span>
+                <p className="font-sans text-slate" style={{ fontSize: "13px", lineHeight: "1.5" }}>{item}</p>
+              </div>
+            ))}
+          </div>
+          {/* Urgency */}
+          <div className="mb-4"><UrgencyBadge /></div>
           <div
             className="overflow-hidden bg-cream"
             style={{

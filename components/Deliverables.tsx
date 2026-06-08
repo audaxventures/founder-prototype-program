@@ -2,6 +2,7 @@
 
 import { Monitor, Code2, Users, FileText } from "lucide-react";
 import FadeUp from "./FadeUp";
+import { openCalendlyModal } from "./CalendlyModal";
 
 const items = [
   {
@@ -83,6 +84,7 @@ export default function Deliverables() {
           <div className="mt-14 text-center">
             <a
               href="#book"
+              onClick={(e) => { e.preventDefault(); openCalendlyModal(); }}
               className="inline-block font-sans font-medium text-sm bg-navy text-white px-8 py-4 hover:bg-navy-dark transition-colors"
               style={{ borderRadius: "2px" }}
             >

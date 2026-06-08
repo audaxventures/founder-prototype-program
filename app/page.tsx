@@ -12,6 +12,8 @@ import FAQ from "@/components/FAQ";
 import Pricing from "@/components/Pricing";
 import Booking from "@/components/Booking";
 import Footer from "@/components/Footer";
+import CalendlyModal from "@/components/CalendlyModal";
+import ExitIntent from "@/components/ExitIntent";
 
 export default function Home() {
   return (
@@ -30,6 +32,8 @@ export default function Home() {
       <Pricing />
       <Booking />
       <Footer />
+      <CalendlyModal />
+      <ExitIntent />
     </main>
   );
 }
