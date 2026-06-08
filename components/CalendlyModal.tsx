@@ -1,7 +1,6 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import Script from "next/script";
 
 export function openCalendlyModal() {
   window.dispatchEvent(new CustomEvent("open-calendly-modal"));
@@ -141,16 +140,12 @@ export default function CalendlyModal() {
         </div>
 
         {/* Calendly widget */}
-        <div
-          className="calendly-inline-widget"
-          data-url="https://calendly.com/audax-ventures/audax-ventures-founder-prototype-program?hide_gdpr_banner=1&primary_color=1B3A6B"
-          data-resize="true"
-          style={{ minWidth: "280px", height: "700px" }}
-        />
-
-        <Script
-          src="https://assets.calendly.com/assets/external/widget.js"
-          strategy="lazyOnload"
+        <iframe
+          src="https://calendly.com/audax-ventures/audax-ventures-founder-prototype-program?hide_gdpr_banner=1&primary_color=1B3A6B&embed_domain=founder-prototype-program.vercel.app&embed_type=Inline"
+          width="100%"
+          height="700px"
+          frameBorder="0"
+          title="Book a strategy call"
         />
       </div>
     </div>
