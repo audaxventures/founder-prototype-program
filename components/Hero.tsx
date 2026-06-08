@@ -1,6 +1,8 @@
 "use client";
 
 import FadeUp from "./FadeUp";
+import { openCalendlyModal } from "./CalendlyModal";
+import UrgencyBadge from "./UrgencyBadge";
 
 function DashboardMockup() {
   return (
@@ -131,17 +133,23 @@ export default function Hero() {
                 {" "}For $10,000.
               </h1>
             </FadeUp>
-            <FadeUp delay={0.2}>
+            <FadeUp delay={0.15}>
+              <div className="mb-6">
+                <UrgencyBadge />
+              </div>
+            </FadeUp>
+            <FadeUp delay={0.22}>
               <p className="font-sans text-text-muted mb-10" style={{ fontSize: "19px", lineHeight: "1.7" }}>
                 We help non-technical founders turn an early-stage idea into a real, deployed
                 prototype — something you can put in front of real users and show to investors.
                 Fast enough to keep your momentum. Affordable enough to fund out of pre-seed savings.
               </p>
             </FadeUp>
-            <FadeUp delay={0.3}>
+            <FadeUp delay={0.32}>
               <div className="flex flex-wrap items-center gap-5 mb-8">
                 <a
                   href="#book"
+                  onClick={(e) => { e.preventDefault(); openCalendlyModal(); }}
                   className="font-sans font-medium text-sm bg-navy text-white px-7 py-3.5 hover:bg-navy-dark transition-colors"
                   style={{ borderRadius: "2px" }}
                 >
@@ -155,7 +163,7 @@ export default function Hero() {
                 </a>
               </div>
             </FadeUp>
-            <FadeUp delay={0.4}>
+            <FadeUp delay={0.42}>
               <div className="flex items-start gap-3">
                 <span style={{ fontSize: "20px", lineHeight: 1, flexShrink: 0, marginTop: "2px" }}>🛡️</span>
                 <p className="font-sans text-slate" style={{ fontSize: "14px", lineHeight: "1.65" }}>

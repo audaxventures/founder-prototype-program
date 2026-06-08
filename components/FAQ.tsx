@@ -3,6 +3,7 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import FadeUp from "./FadeUp";
+import { openCalendlyModal } from "./CalendlyModal";
 
 const faqs = [
   {
@@ -32,7 +33,7 @@ const faqs = [
 ];
 
 function FAQItem({ q, a, index }: { q: string; a: string; index: number }) {
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(true);
 
   return (
     <FadeUp delay={0.05 * index}>
@@ -123,6 +124,7 @@ export default function FAQ() {
           <div className="mt-14 text-center">
             <a
               href="#book"
+              onClick={(e) => { e.preventDefault(); openCalendlyModal(); }}
               className="inline-block font-sans font-medium text-sm bg-navy text-white px-8 py-4 hover:bg-navy-dark transition-colors"
               style={{ borderRadius: "2px" }}
             >

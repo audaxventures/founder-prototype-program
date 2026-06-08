@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { openCalendlyModal } from "./CalendlyModal";
 
 export default function Nav() {
   return (
@@ -11,6 +12,7 @@ export default function Nav() {
         backdropFilter: "blur(12px)",
         WebkitBackdropFilter: "blur(12px)",
         borderBottom: "0.5px solid rgba(27,58,107,0.12)",
+        boxShadow: "0 2px 20px rgba(0,0,0,0.08)",
       }}
     >
       <div className="relative max-w-6xl mx-auto px-6 h-20 flex items-center justify-between">
@@ -37,13 +39,13 @@ export default function Nav() {
         </div>
 
         {/* CTA */}
-        <a
-          href="#book"
-          className="font-sans font-medium text-sm bg-navy text-white px-5 py-2.5 transition-colors hover:bg-navy-dark"
-          style={{ borderRadius: "2px" }}
+        <button
+          onClick={openCalendlyModal}
+          className="font-sans font-medium text-sm px-5 py-2.5 transition-opacity hover:opacity-90"
+          style={{ borderRadius: "2px", backgroundColor: "#C9A84C", color: "#1B3A6B", border: "none", cursor: "pointer" }}
         >
           Book a FREE Strategy Call
-        </a>
+        </button>
       </div>
     </nav>
   );
