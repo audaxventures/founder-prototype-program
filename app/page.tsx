@@ -2,6 +2,7 @@ import Nav from "@/components/Nav";
 import Hero from "@/components/Hero";
 import Problem from "@/components/Problem";
 import WhoItsFor from "@/components/WhoItsFor";
+import Differentiator from "@/components/Differentiator";
 import Portfolio from "@/components/Portfolio";
 import Process from "@/components/Process";
 import Deliverables from "@/components/Deliverables";
@@ -22,6 +23,7 @@ export default function Home() {
       <Hero />
       <Problem />
       <WhoItsFor />
+      <Differentiator />
       <Portfolio />
       <Process />
       <Deliverables />

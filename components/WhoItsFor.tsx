@@ -4,6 +4,7 @@ import FadeUp from "./FadeUp";
 import { openCalendlyModal } from "./CalendlyModal";
 
 const checks = [
+  "You want strategic guidance on what to build — not just someone who'll build whatever you say",
   "You don't have a technical co-founder and need someone to build your vision",
   "You need to put your idea in front of real users to validate it before going all-in",
   "You want something tangible for investors — not just a slide deck",

@@ -9,8 +9,8 @@ const cards = [
     phase: "DAYS 1–3",
     title: "Discovery",
     description:
-      "We sit down with you — as a team — to unpack your idea and define the smallest version of the product that proves your concept. By the end of these sessions you'll have a clear scope, a defined user flow, and a build plan.",
-    tag: "Scope · User flow · Build plan",
+      "Our business strategists and developers sit down with you to define exactly what to build and why — before any code is written. We map your users, prioritize features around your goals, and scope the minimum product that proves your concept. You leave with a strategic build plan, not just a to-do list for developers.",
+    tag: "Strategy · Scope · User flow · Build plan",
   },
   {
     num: "02",
