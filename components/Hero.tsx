@@ -31,7 +31,7 @@ export default function Hero() {
               >
                 A working prototype in{" "}
                 <em className="text-orange not-italic italic">two weeks.</em>
-                {" "}For $10,000.
+                {" "}From $6,000.
               </h1>
             </FadeUp>
             <FadeUp delay={0.15}>

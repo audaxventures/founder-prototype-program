@@ -32,19 +32,28 @@ export default function Pricing() {
               lineHeight: "1.08",
             }}
           >
-            One fixed price. No surprises.
+            Transparent pricing. No surprises.
           </h2>
         </FadeUp>
 
         <FadeUp delay={0.2}>
-          <div className="mb-5">
+          <div className="mb-3">
             <span
               className="font-display font-semibold text-white"
-              style={{ fontSize: "clamp(5rem, 10vw, 90px)", lineHeight: 1, letterSpacing: "-0.02em" }}
+              style={{ fontSize: "clamp(3.5rem, 8vw, 72px)", lineHeight: 1, letterSpacing: "-0.02em" }}
             >
-              $10,000
+              $6,000 – $10,000
             </span>
           </div>
+        </FadeUp>
+
+        <FadeUp delay={0.22}>
+          <p
+            className="font-sans mb-3"
+            style={{ fontSize: "15px", lineHeight: "1.6", color: "rgba(255,255,255,0.55)", maxWidth: "480px", margin: "0 auto 12px" }}
+          >
+            Pricing depends on the scope and complexity of your prototype. We&apos;ll give you a fixed quote after your free discovery call — no obligation.
+          </p>
         </FadeUp>
 
         <FadeUp delay={0.25}>
@@ -52,7 +61,7 @@ export default function Pricing() {
             className="font-sans mb-10"
             style={{ fontSize: "13px", letterSpacing: "0.1em", color: "rgba(255,255,255,0.5)" }}
           >
-            Fixed fee · No equity · No retainer · No hidden costs
+            Fixed quote · No equity · No retainer · No hidden costs
           </p>
         </FadeUp>
 

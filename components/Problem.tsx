@@ -14,16 +14,16 @@ export default function Problem() {
               className="font-display font-semibold text-white"
               style={{ fontSize: "52px", lineHeight: 1, letterSpacing: "-0.01em" }}
             >
-              $10K
+              $6K–$10K
             </div>
             <div
               className="font-sans font-medium mt-2 mb-2"
               style={{ fontSize: "11px", letterSpacing: "0.08em", textTransform: "uppercase", color: "rgba(154,170,187,0.9)" }}
             >
-              Fixed Price
+              Starting Price
             </div>
             <p className="font-sans" style={{ fontSize: "15px", color: "rgba(255,255,255,0.5)" }}>
-              One flat rate. No equity, no retainer, no surprises.
+              Scoped to your project. No equity, no retainer, no surprises.
             </p>
           </div>
           <div className="px-8 py-8 text-center">

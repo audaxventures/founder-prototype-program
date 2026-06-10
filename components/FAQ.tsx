@@ -20,7 +20,11 @@ const faqs = [
   },
   {
     q: "Do you take equity or have any ongoing fees?",
-    a: "No. The program is a flat $10,000, one-time fee. We take no equity, no royalties, and there are no hidden costs or retainers. After the program ends, you own everything outright and there's no obligation to continue working with us — though many clients do.",
+    a: "No. The program is a one-time fee with no equity, no royalties, and no hidden costs or retainers. After the program ends, you own everything outright and there's no obligation to continue working with us — though many clients do.",
+  },
+  {
+    q: "What determines where my project falls in the $6,000–$10,000 range?",
+    a: "The price depends on the scope and complexity of your specific prototype. Simpler projects — a single core user flow, straightforward data model, minimal integrations — come in at the lower end. More complex builds — multiple user roles, third-party API integrations, real-time features, or more sophisticated UI — sit closer to the top. During your free discovery call we'll scope your project together and give you a fixed quote before you commit to anything. There are no surprises after that.",
   },
   {
     q: "What industries do you work with?",
